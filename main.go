@@ -9,6 +9,7 @@ import (
 func init() {
 	initializers.LoadEnv()
 	initializers.Connect()
+	initializers.Run()
 }
 
 func main() {
